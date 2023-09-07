@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>.;
+    <h1>if & else statement</h1>
+    <script>
+        var a = 10;
+        a < 2
+            ? document.write("abc") :
+            a > 100
+                ? document.write("def") :
+                a < 3
+                    ? document.write("ghi") : document.write("jkl");
+
+    </script>
+    <h1>Switch statement</h1>
+    <script>
+        var a = 2;
+        switch (a) {
+            case 0:
+                document.write("abcd")
+                break;
+
+            case 1:
+                document.write("efgh")
+                break;
+            case 2:
+                document.write("ijkl")
+                break;
+            default:
+                document.write("error")
+        }
+
+    </script>
+    <h1>function</h1>
+    <script>
+        function abc() {
+            document.write("hello word");
+            document.write("<br>");
+            document.write("I am sachin ");
+            document.write("<br>");
+            document.write("I am fine");
+            document.write("<br>");
+            document.write("<br>");
+        }
+        abc();
+        abc();
+        abc();
+    </script>
+    <h1>For loop</h1>
+
+
+    <script>
+        const cars = ["Verna", "Scorpio", "Jeep", "Ford", "Thar", "Audi"];
+
+        let text = "";
+        for (let i = 0; i < cars.length; i++) {
+            text += cars[i] + "<br>";
+        }
+        document.write(text);
+    </script>
+    <h1>Do loop</h1>
+    <script>
+        {
+            let password;
+            do {
+                password = prompt('open file')
+            }
+            while (password !== 'sachin')
+        }
+    </script>
+    <!-- <script>
+        let i = 1;
+        while (i < 12) {
+            document.write(i + "<br>")
+        }
+    </script> -->
+
+</body>
+
+</html>
